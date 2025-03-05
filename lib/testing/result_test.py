@@ -32,11 +32,11 @@ class TestResults:
 
         # uncomment the next two lines if using Exceptions
         with pytest.raises(Exception):
-             Result(player, game, "500")
+            Result(player, game, "500")
 
         # uncomment the next two lines if using Exceptions
         with pytest.raises(Exception):
-             Result(player, game, 400.99)
+            Result(player, game, 400.99)
 
     def test_score_is_valid(self):
         """score is between 1 and 5000 inclusive"""
